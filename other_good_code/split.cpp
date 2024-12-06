@@ -37,7 +37,7 @@ void split(string line, string words[], char spliting_char)
             idx++;
         }
     }
-    if(current_word != "")
+    if(current_word != "") // add the last remaining word, if there is one, to the array
     {
         words[idx] = current_word;
     }
