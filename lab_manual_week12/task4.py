@@ -15,4 +15,4 @@ for row in range(rows):
         value = int(input(f"Enter element [{row}][{col}]: "))
         current_row.append(value)
     matrix.append(current_row)
-print("Sum of the elements is: ", sum_elements(matrix, rows))
+print("Sum of the elements is:", sum_elements(matrix, rows))
